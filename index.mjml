@@ -1,0 +1,125 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" font-size="16px" line-height="22px" />
+      <mj-all font-family="Arial" />
+      <mj-class name="fullwidth-button" width="100%" padding="8px" font-weight="bold" font-size="16px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .child-item-inline * {
+        vertical-align: middle;
+      }
+
+      .list-data {
+        margin: 0;
+        padding: 0
+      }
+
+      .list-data li {
+        list-style: none;
+        margin-bottom: 15px;
+      }
+
+      .list-data li strong {
+        display: inline-block;
+        width: 45%;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#E3EDF7">
+    <mj-include path="./the-header.mjml" />
+    <mj-spacer height="30px" />
+    <mj-section background-url="./images/background-heading.jpg" border-radius="14px 14px 0 0">
+      <mj-column vertical-align="middle">
+        <mj-image src="./images/Logo-POSITIVE.png" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-button background-color="#15fcdb" color="#244556" font-weight="bold">Manage My Account Online</mj-buttom>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#006CB3">
+      <mj-column>
+        <mj-text align="center" color="white" font-weight="bold">
+          <div class="child-item-inline">
+            <img src="./images/sms.png" style="margin-right: 5px;"/> 
+            <a style="color: white" href="tel:0480009000">0480 009 000</a>
+          </div>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="white" font-weight="bold">
+          <div class="child-item-inline">
+            <img src="./images/chat.png" style="margin-right: 5px;"/> 
+            <a style="color: white" href="#">Web Chat</a>
+          </div>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="white" font-weight="bold">
+        <div class="child-item-inline">
+            <img src="./images/mobile.png" style="margin-right: 5px;"/> 
+            <a style="color: white" href="tel:1300722974">1300 722 974</a>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 30px">
+      <mj-column>
+        <mj-spacer />
+        <mj-text>Hi James,</mj-text>
+        <mj-spacer />
+        <mj-text>I have listed your account details below for your reference.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 30px" >
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#ddd" padding="0 0 30px 0" />
+        <mj-text>
+          <ul class="list-data">
+            <li><strong>Our Reference:</strong> <span>6435 1020</span></li>
+            <li><strong>Account Type:</strong> <span>Panthera Test Client</span></li>
+            <li><strong>Client Reference:</strong> <span>TEST001</span></li>
+            <li><strong>Amount Paid:</strong> <span>$2,153.34</span></li>
+            <li><strong>Amount Outstanding:</strong> <span>$1,037.21</span></li>
+          </ul>
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#ddd" padding="15px 0 0" /> 
+        <mj-spacer height="30px" />
+        <mj-text>
+          Please note, we are committed to respecting the financial, health and social well-being of all our customers, and we are here to provide support and flexibility throughout this difficult time.
+        </mj-text>
+        <mj-spacer />
+        <mj-text>
+          If there is anything you wish to discuss, please don't hesitate to contact our office on <a href="tel:1300 722 974">1300 722 974</a> to speak with one of our friendly staff.
+        </mj-text>
+        <mj-spacer />
+        <mj-text>
+          Alternatively, please advise your intentions towards the above account so we can assist moving forward?
+        </mj-text>
+        <mj-spacer />
+        <mj-text>
+          You can also manage your account online via our customer portal at <a href="https://www.pantherafinance.com.au" targe="_blank">www.pantherafinance.com.au</a>.
+        </mj-text>
+        <mj-spacer />
+        <mj-text>Yours faithfully,</mj-text>
+        <mj-spacer />
+        <mj-text>
+          Dawn Donnelly <br />
+          General Manager
+        </mj-text>
+        <mj-spacer height="30px" />
+        <mj-button mj-class="fullwidth-button" background-color="#009d8b">Make a payment</mj-button>
+        <mj-button mj-class="fullwidth-button" background-color="#009d8b">View Payment Plans</mj-button>
+        <mj-button mj-class="fullwidth-button" background-color="#e5872c">Why are you hearing from us?</mj-button>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="./images/contact-us-background.png" padding="40px 30px">
+      <mj-column>
+        <mj-text font-size="22px" font-weight="bold" color="white">
+          Other ways to contact us
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

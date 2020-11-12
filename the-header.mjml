@@ -1,0 +1,12 @@
+<mj-wrapper full-width="full-width" background-color="white" padding="0" >
+  <mj-section>
+    <mj-column width="14%" vertical-align="middle" >
+      <mj-image src="./images/help.png">
+    </mj-column>
+    <mj-column width="86%" vertical-align="middle">
+      <mj-text font-size="14px" line-height="18px">
+        If COVID-19 has affected you please contact our support team on <a href="tel:0735359082">(07) 3535 9082</a> to discuss.
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
