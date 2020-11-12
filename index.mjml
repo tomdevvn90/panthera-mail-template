@@ -24,6 +24,23 @@
         display: inline-block;
         width: 45%;
       }
+
+      .contact-list {
+        margin: 0;
+        padding: 0;
+      }
+
+      .contact-list li {
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+
+      .contact-list li span {
+        width: 24px;
+        display: inline-block;
+        margin-right: 15px
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#E3EDF7">
@@ -34,7 +51,9 @@
         <mj-image src="./images/Logo-POSITIVE.png" />
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-button background-color="#15fcdb" color="#244556" font-weight="bold">Manage My Account Online</mj-buttom>
+        <mj-button background-color="#15fcdb" color="#244556" font-weight="bold">
+          Manage My Account Online
+        </mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#006CB3">
@@ -118,6 +137,22 @@
       <mj-column>
         <mj-text font-size="22px" font-weight="bold" color="white">
           Other ways to contact us
+        </mj-text>
+        <mj-spacer />
+        <mj-text>
+          <ul class="contact-list">
+            <li>
+              <span>
+                <image src="./images/EDM-Chat.png" />
+              </span>
+              <div class="entry">
+                <p>
+                  Login to the portal <br />
+                  <a href="https://pantherafinance.com.au">pantherafinance.com.au</a>
+                </p>
+              </div>
+            </li>
+          </ul>
         </mj-text>
       </mj-column>
     </mj-section>
