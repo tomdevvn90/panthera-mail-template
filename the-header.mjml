@@ -5,7 +5,7 @@
     </mj-column>
     <mj-column width="91%" vertical-align="middle">
       <mj-text font-size="14px" line-height="18px" font-weight="bold">
-        If COVID-19 has affected you please contact our support team on <a href="tel:0735359082">(07) 3535 9082</a> to discuss.
+        <multiline>If COVID-19 has affected you please contact our support team on <a href="tel:0735359082">(07) 3535 9082</a> to discuss.</multiline>
       </mj-text>
     </mj-column>
   </mj-section>

@@ -26,6 +26,10 @@
         vertical-align: middle;
       }
 
+      .child-item-inline a {
+        text-decoration: none;
+      }
+
       .list-data {
         margin: 0;
         padding: 0
@@ -94,7 +98,7 @@
       </mj-column>
       <mj-column vertical-align="middle">
         <mj-button background-color="#15fcdb" color="#244556" font-weight="bold">
-          Manage My Account Online
+          <multiline>Manage My Account Online</multiline>
         </mj-button>
       </mj-column>
     </mj-section>
@@ -103,7 +107,7 @@
         <mj-text align="center" color="white" font-weight="bold">
           <div class="child-item-inline">
             <img src="https://tomdevvn90.github.io/panthera-mail-template/images/sms.png" style="margin-right: 5px;"/> 
-            <a style="color: white" href="tel:0480009000">0480 009 000</a>
+            <a style="color: white" href="tel:0480009000"><multiline>0480 009 000</multiline></a>
           </div>
         </mj-text>
       </mj-column>
@@ -111,7 +115,7 @@
         <mj-text align="center" color="white" font-weight="bold">
           <div class="child-item-inline">
             <img src="https://tomdevvn90.github.io/panthera-mail-template/images/chat.png" style="margin-right: 5px;"/> 
-            <a style="color: white" href="#">Web Chat</a>
+            <a style="color: white" href="#"><multiline>Web Chat</multiline></a>
           </div>
         </mj-text>
       </mj-column>
@@ -119,7 +123,7 @@
         <mj-text align="center" color="white" font-weight="bold">
         <div class="child-item-inline">
             <img src="https://tomdevvn90.github.io/panthera-mail-template/images/mobile.png" style="margin-right: 5px;"/> 
-            <a style="color: white" href="tel:1300722974">1300 722 974</a>
+            <a style="color: white" href="tel:1300722974"><multiline>1300 722 974</multiline></a>
           </div>
         </mj-text>
       </mj-column>
@@ -127,9 +131,9 @@
     <mj-section background-color="white" padding="20px 30px">
       <mj-column>
         <mj-spacer />
-        <mj-text>Hi James,</mj-text>
+        <mj-text><multiline>Hi James,</multiline></mj-text>
         <mj-spacer />
-        <mj-text>I have listed your account details below for your reference.</mj-text>
+        <mj-text><multiline>I have listed your account details below for your reference.</multiline></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="white" padding="20px 30px" >
@@ -147,26 +151,26 @@
         <mj-divider border-width="1px" border-style="solid" border-color="#ddd" padding="15px 0 0" /> 
         <mj-spacer height="30px" />
         <mj-text>
-          Please note, we are committed to respecting the financial, health and social well-being of all our customers, and we are here to provide support and flexibility throughout this difficult time.
+          <multiline>Please note, we are committed to respecting the financial, health and social well-being of all our customers, and we are here to provide support and flexibility throughout this difficult time.</multiline>
         </mj-text>
         <mj-spacer />
         <mj-text>
-          If there is anything you wish to discuss, please don't hesitate to contact our office on <a href="tel:1300 722 974">1300 722 974</a> to speak with one of our friendly staff.
+          <multiline>If there is anything you wish to discuss, please don't hesitate to contact our office on <a href="tel:1300 722 974">1300 722 974</a> to speak with one of our friendly staff.</multiline>
         </mj-text>
         <mj-spacer />
         <mj-text>
-          Alternatively, please advise your intentions towards the above account so we can assist moving forward?
+          <multiline>Alternatively, please advise your intentions towards the above account so we can assist moving forward?</multiline>
         </mj-text>
         <mj-spacer />
         <mj-text>
-          You can also manage your account online via our customer portal at <a href="https://www.pantherafinance.com.au" targe="_blank">www.pantherafinance.com.au</a>.
+          <multiline>You can also manage your account online via our customer portal at <a href="https://www.pantherafinance.com.au" targe="_blank">www.pantherafinance.com.au</a>.</multiline>
         </mj-text>
         <mj-spacer />
-        <mj-text>Yours faithfully,</mj-text>
+        <mj-text><multiline>Yours faithfully,</multiline></mj-text>
         <mj-spacer />
         <mj-text>
-          Dawn Donnelly <br />
-          General Manager
+          <multiline>Dawn Donnelly <br />
+          General Manager</multiline>
         </mj-text>
         <mj-spacer height="30px" />
         <mj-button mj-class="fullwidth-button" background-color="#009d8b">Make a payment</mj-button>
@@ -178,7 +182,7 @@
     <mj-section background-url="https://tomdevvn90.github.io/panthera-mail-template/images/contact-us-background.png" background-color="black" padding="40px 30px 30px">
       <mj-column>
         <mj-text font-size="22px" font-weight="bold" color="white">
-          Other ways to contact us
+          <multiline>Other ways to contact us</multiline>
         </mj-text>
         <mj-spacer />
         <mj-text>
@@ -238,7 +242,7 @@
       </mj-column>
       <mj-column width="65%" vertical-align="middle">
         <mj-text color="white">
-          If you’re facing financial hardship or you’re struggling to make ends meet, contact the National Debt Helpline on 1800 007 007 – open Monday to Friday from 9:30am to 4:30pm.
+          <multiline>If you’re facing financial hardship or you’re struggling to make ends meet, contact the National Debt Helpline on 1800 007 007 – open Monday to Friday from 9:30am to 4:30pm.</multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -249,7 +253,9 @@
             <span>
               <img width="23px" height="auto;" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
             </span>
-            <span>Please consider the environment before printing this email.</span>
+            <span>
+              Please consider the environment before printing this email.
+            </span>
           </div>
         </mj-text>
       </mj-column>
@@ -257,11 +263,11 @@
     <mj-section>
       <mj-column>
         <mj-text align="center" font-size="12px" color="#2D5B76">
-          The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, transmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited. 
+          <multiline>The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, transmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited.</multiline> 
         </mj-text>
         <mj-spacer height="10px" />
         <mj-text align="center" font-size="12px" color="#2D5B76">
-          If you receive this in error, please contact the sender and delete the material from any computer. 
+          <multiline>If you receive this in error, please contact the sender and delete the material from any computer.</multiline>
         </mj-text>
         <mj-spacer height="60px" />
       </mj-column>
