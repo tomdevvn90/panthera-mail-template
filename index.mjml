@@ -58,9 +58,13 @@
       }
 
       .contact-list li span {
-        width: 24px;
         display: inline-block;
         margin-right: 15px
+      }
+
+      .contact-list img {
+        width: 24px;
+        height: auto;
       }
 
       .contact-list li a {
@@ -189,47 +193,39 @@
           <ul class="contact-list">
             <li>
               <span>
-                <image width="100%" src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Chat.png" />
+                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Chat.png" />
               </span>
               <div class="entry">
-                <p>
-                  <div class="__thin">Login to the portal</div>
-                  <a href="https://pantherafinance.com.au">pantherafinance.com.au</a>
-                </p>
+                <div class="__thin">Login to the portal</div>
+                <a href="https://pantherafinance.com.au">pantherafinance.com.au</a>
               </div>
             </li>
             <li>
               <span>
-                <image width="100%" src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mail.png" />
+                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mail.png" />
               </span>
               <div class="entry">
-                <p>
-                  <div class="__thin">Send an email to</div>
-                  <a href="mailto:manager@pantherafinance.com.au">manager@pantherafinance.com.au</a>
-                </p>
+                <div class="__thin">Send an email to</div>
+                <a href="mailto:manager@pantherafinance.com.au">manager@pantherafinance.com.au</a>
               </div>
             </li>
             <li>
               <span>
-                <image width="100%" src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Phone2.png" />
+                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Phone2.png" />
               </span>
               <div class="entry">
-                <p>
-                  <div class="__thin">Overseas call</div>
-                  +61 7 3252 4211
-                </p>
+                <div class="__thin">Overseas call</div>
+                +61 7 3252 4211
               </div>
             </li>
             <li>
               <span>
-                <image width="100%" src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mobile.png" />
+                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mobile.png" />
               </span>
               <div class="entry">
-                <p>
-                  <div class="__thin">Write to us</div>
-                  PO BOX 388, <br />
-                  Toowong DC, QLD, 4066
-                </p>
+                <div class="__thin">Write to us</div>
+                PO BOX 388, <br />
+                Toowong DC, QLD, 4066
               </div>
             </li>
           </ul>
