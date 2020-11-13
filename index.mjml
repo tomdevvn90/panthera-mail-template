@@ -246,7 +246,7 @@
       <mj-column>
         <mj-text>
           <div class="bottom-message">
-            <img width="23px" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
+            <img width="23px" height="auto" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
             <span>Please consider the environment before printing this email.</span>
           </div>
         </mj-text>
