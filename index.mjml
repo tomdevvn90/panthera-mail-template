@@ -5,6 +5,17 @@
       <mj-all font-family="Arial" />
       <mj-class name="fullwidth-button" width="100%" padding="8px" font-weight="bold" font-size="16px" />
     </mj-attributes>
+    <mj-style>
+      @media(max-width: 479px) {
+        .child-item-inline {
+          margin-bottom: 15px;
+        }
+
+        .image-center-on-mobile > * {
+          margin-bottom: 20px;
+        }
+      }
+    </mj-style>
     <mj-style inline="inline">
       .child-item-inline * {
         vertical-align: middle;
@@ -218,7 +229,7 @@
     </mj-section>
     <mj-section background-color="black" padding="30px">
       <mj-column width="35%" padding-right="30px" vertical-align="middle">
-        <mj-image align="left" padding="0" src="./images/national-help.png" />
+        <mj-image css-class="image-center-on-mobile" align="left" padding="0" src="./images/national-help.png" />
       </mj-column>
       <mj-column width="65%" vertical-align="middle">
         <mj-text color="white">

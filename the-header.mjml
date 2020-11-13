@@ -1,4 +1,4 @@
-<mj-wrapper full-width="full-width" background-color="white" padding="0" >
+<mj-wrapper full-width="full-width" background-color="white" padding="0 10px">
   <mj-section>
     <mj-column width="9%" vertical-align="middle" >
       <mj-image padding="0 10px 0" align="left" src="./images/help.png">
