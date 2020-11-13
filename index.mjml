@@ -83,7 +83,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#E3EDF7">
-    <mj-include path="https://tomdevvn90.github.io/panthera-mail-template/the-header.mjml" />
+    <mj-include path="./the-header.mjml" />
     <mj-section>
       <mj-column>
       </mj-column>
@@ -246,7 +246,9 @@
       <mj-column>
         <mj-text>
           <div class="bottom-message">
-            <img width="23px" height="auto" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
+            <span>
+              <img width="23px" height="auto;" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
+            </span>
             <span>Please consider the environment before printing this email.</span>
           </div>
         </mj-text>
