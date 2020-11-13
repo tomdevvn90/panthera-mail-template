@@ -1,7 +1,7 @@
 <mj-wrapper full-width="full-width" background-color="white" padding="0 10px">
   <mj-section>
     <mj-column width="9%" vertical-align="middle" >
-      <mj-image padding="0 10px 0" align="left" css-class="center-on-mobile" src="./images/help.png">
+      <mj-image padding="0 10px 0" align="left" css-class="center-on-mobile" src="https://tomdevvn90.github.io/panthera-mail-template/images/help.png">
     </mj-column>
     <mj-column width="91%" vertical-align="middle">
       <mj-text font-size="14px" line-height="18px" font-weight="bold">
