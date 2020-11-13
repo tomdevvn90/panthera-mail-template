@@ -34,6 +34,7 @@
         display: flex;
         align-items: center;
         color: white;
+        font-weight: 600;
       }
 
       .contact-list li span {
@@ -41,11 +42,36 @@
         display: inline-block;
         margin-right: 15px
       }
+
+      .contact-list li a {
+        color: #94D4FF;
+        text-decoration: none;
+      }
+
+      .__thin {
+        font-weight: 300;
+        color: rgba(255,255,255,.9);
+      }
+
+      .bottom-message {
+        display: flex;
+        align-items: center;
+        color: #00D0B8;
+        font-weight: bold;
+        justify-content: center;
+      }
+
+      .bottom-message img {
+        margin-right: 20px;
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#E3EDF7">
     <mj-include path="./the-header.mjml" />
-    <mj-spacer height="30px" />
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
     <mj-section background-url="./images/background-heading.jpg" border-radius="14px 14px 0 0">
       <mj-column vertical-align="middle">
         <mj-image src="./images/Logo-POSITIVE.png" />
@@ -133,7 +159,7 @@
         <mj-spacer height="30px" />
       </mj-column>
     </mj-section>
-    <mj-section background-url="./images/contact-us-background.png" padding="40px 30px">
+    <mj-section background-url="./images/contact-us-background.png" padding="40px 30px 30px">
       <mj-column>
         <mj-text font-size="22px" font-weight="bold" color="white">
           Other ways to contact us
@@ -143,17 +169,83 @@
           <ul class="contact-list">
             <li>
               <span>
-                <image src="./images/EDM-Chat.png" />
+                <image width="100%" src="./images/EDM-Chat.png" />
               </span>
               <div class="entry">
                 <p>
-                  Login to the portal <br />
+                  <div class="__thin">Login to the portal</div>
                   <a href="https://pantherafinance.com.au">pantherafinance.com.au</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <image width="100%" src="./images/EDM-Mail.png" />
+              </span>
+              <div class="entry">
+                <p>
+                  <div class="__thin">Send an email to</div>
+                  <a href="mailto:manager@pantherafinance.com.au">manager@pantherafinance.com.au</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <image width="100%" src="./images/EDM-Phone2.png" />
+              </span>
+              <div class="entry">
+                <p>
+                  <div class="__thin">Overseas call</div>
+                  +61 7 3252 4211
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <image width="100%" src="./images/EDM-Mobile.png" />
+              </span>
+              <div class="entry">
+                <p>
+                  <div class="__thin">Write to us</div>
+                  PO BOX 388, <br />
+                  Toowong DC, QLD, 4066
                 </p>
               </div>
             </li>
           </ul>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="black" padding="30px">
+      <mj-column width="35%" padding-right="30px" vertical-align="middle">
+        <mj-image align="left" padding="0" src="./images/national-help.png" />
+      </mj-column>
+      <mj-column width="65%" vertical-align="middle">
+        <mj-text color="white">
+          If you’re facing financial hardship or you’re struggling to make ends meet, contact the National Debt Helpline on 1800 007 007 – open Monday to Friday from 9:30am to 4:30pm.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0A3B5C" padding="15px 30px" border-radius="0 0 14px 14px">
+      <mj-column>
+        <mj-text>
+          <div class="bottom-message">
+            <img width="23px" src="./images/leaf.png" />
+            <span>Please consider the environment before printing this email.</span>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#2D5B76">
+          The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, transmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited. 
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text align="center" font-size="12px" color="#2D5B76">
+          If you receive this in error, please contact the sender and delete the material from any computer. 
+        </mj-text>
+        <mj-spacer height="60px" />
       </mj-column>
     </mj-section>
   </mj-body>
