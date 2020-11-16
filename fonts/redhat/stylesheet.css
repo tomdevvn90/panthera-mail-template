@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./RedHatDisplay-Black.woff2') format('woff2'),
+        url('./RedHatDisplay-Black.woff') format('woff'),
+        url('./RedHatDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-BlackItalic.woff2') format('woff2'),
+        url('RedHatDisplay-BlackItalic.woff') format('woff'),
+        url('RedHatDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Bold.woff2') format('woff2'),
+        url('RedHatDisplay-Bold.woff') format('woff'),
+        url('RedHatDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-BoldItalic.woff2') format('woff2'),
+        url('RedHatDisplay-BoldItalic.woff') format('woff'),
+        url('RedHatDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Medium.woff2') format('woff2'),
+        url('RedHatDisplay-Medium.woff') format('woff'),
+        url('RedHatDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Italic.woff2') format('woff2'),
+        url('RedHatDisplay-Italic.woff') format('woff'),
+        url('RedHatDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Regular.woff2') format('woff2'),
+        url('RedHatDisplay-Regular.woff') format('woff'),
+        url('RedHatDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-MediumItalic.woff2') format('woff2'),
+        url('RedHatDisplay-MediumItalic.woff') format('woff'),
+        url('RedHatDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-Italic.woff2') format('woff2'),
+        url('RedHatText-Italic.woff') format('woff'),
+        url('RedHatText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-Bold.woff2') format('woff2'),
+        url('RedHatText-Bold.woff') format('woff'),
+        url('RedHatText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-BoldItalic.woff2') format('woff2'),
+        url('RedHatText-BoldItalic.woff') format('woff'),
+        url('RedHatText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-Medium.woff2') format('woff2'),
+        url('RedHatText-Medium.woff') format('woff'),
+        url('RedHatText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-MediumItalic.woff2') format('woff2'),
+        url('RedHatText-MediumItalic.woff') format('woff'),
+        url('RedHatText-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: url('RedHatText-Regular.woff2') format('woff2'),
+        url('RedHatText-Regular.woff') format('woff'),
+        url('RedHatText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,8 +1,9 @@
 <mjml>
   <mj-head>
+    <mj-font name="Red Hat Display" href="./fonts/redhat/stylesheet.css" />
     <mj-attributes>
       <mj-text padding="0" font-size="16px" line-height="22px" />
-      <mj-all font-family="Arial" />
+      <mj-all font-family="Red Hat Display" />
       <mj-class name="fullwidth-button" width="100%" padding="8px" font-weight="bold" font-size="16px" />
     </mj-attributes>
     <mj-style>
@@ -55,6 +56,7 @@
         align-items: center;
         color: white;
         font-weight: 600;
+        margin-bottom: 15px
       }
 
       .contact-list li span {
