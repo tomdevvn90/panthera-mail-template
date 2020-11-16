@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Red Hat Display" href="./fonts/redhat/stylesheet.css" />
+    <mj-font name="Red Hat Display" href="https://tomdevvn90.github.io/panthera-mail-template/fonts/redhat/stylesheet.css" />
     <mj-attributes>
       <mj-text padding="0" font-size="16px" line-height="22px" />
       <mj-all font-family="Red Hat Display" />
