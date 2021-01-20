@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Red Hat Display" href="https://tomdevvn90.github.io/panthera-mail-template/fonts/redhat/stylesheet.css" />
+    <mj-font name="Red Hat Display" href="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/fonts/redhat/stylesheet.css" />
     <mj-attributes>
       <mj-text padding="0" font-size="16px" line-height="22px" />
       <mj-all font-family="Red Hat Display, Arial" />
@@ -98,9 +98,9 @@
       <mj-column>
       </mj-column>
     </mj-section>
-    <mj-section background-url="https://tomdevvn90.github.io/panthera-mail-template/images/background-heading.jpg" border-radius="14px 14px 0 0">
+    <mj-section background-url="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/background-heading.jpg" border-radius="14px 14px 0 0">
       <mj-column vertical-align="middle">
-        <mj-image src="https://tomdevvn90.github.io/panthera-mail-template/images/Logo-POSITIVE.png" />
+        <mj-image src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/Logo-POSITIVE.png" />
       </mj-column>
       <mj-column vertical-align="middle">
         <mj-button background-color="#15fcdb" color="#244556" font-weight="bold">
@@ -112,7 +112,7 @@
       <mj-column>
         <mj-text align="center" color="white" font-weight="bold">
           <div class="child-item-inline">
-            <img src="https://tomdevvn90.github.io/panthera-mail-template/images/sms.png" style="margin-right: 5px;"/> 
+            <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/sms.png" style="margin-right: 5px;"/> 
             <a style="color: white" href="tel:0480009000"><multiline>0480 009 000</multiline></a>
           </div>
         </mj-text>
@@ -120,7 +120,7 @@
       <mj-column>
         <mj-text align="center" color="white" font-weight="bold">
           <div class="child-item-inline">
-            <img src="https://tomdevvn90.github.io/panthera-mail-template/images/chat.png" style="margin-right: 5px;"/> 
+            <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/chat.png" style="margin-right: 5px;"/> 
             <a style="color: white" href="#"><multiline>Web Chat</multiline></a>
           </div>
         </mj-text>
@@ -128,7 +128,7 @@
       <mj-column>
         <mj-text align="center" color="white" font-weight="bold">
         <div class="child-item-inline">
-            <img src="https://tomdevvn90.github.io/panthera-mail-template/images/mobile.png" style="margin-right: 5px;"/> 
+            <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/mobile.png" style="margin-right: 5px;"/> 
             <a style="color: white" href="tel:1300722974"><multiline>1300 722 974</multiline></a>
           </div>
         </mj-text>
@@ -185,7 +185,7 @@
         <mj-spacer height="30px" />
       </mj-column>
     </mj-section>
-    <mj-section background-url="https://tomdevvn90.github.io/panthera-mail-template/images/contact-us-background.png" background-color="black" padding="40px 30px 30px">
+    <mj-section background-url="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/contact-us-background.png" background-color="black" padding="40px 30px 30px">
       <mj-column>
         <mj-text font-size="22px" font-weight="bold" color="white">
           <multiline>Other ways to contact us</multiline>
@@ -195,7 +195,7 @@
           <ul class="contact-list">
             <li>
               <span>
-                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Chat.png" />
+                <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/EDM-Chat.png" />
               </span>
               <div class="entry">
                 <div class="__thin">Login to the portal</div>
@@ -204,7 +204,7 @@
             </li>
             <li>
               <span>
-                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mail.png" />
+                <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/EDM-Mail.png" />
               </span>
               <div class="entry">
                 <div class="__thin">Send an email to</div>
@@ -213,7 +213,7 @@
             </li>
             <li>
               <span>
-                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Phone2.png" />
+                <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/EDM-Phone2.png" />
               </span>
               <div class="entry">
                 <div class="__thin">Overseas call</div>
@@ -222,7 +222,7 @@
             </li>
             <li>
               <span>
-                <img src="https://tomdevvn90.github.io/panthera-mail-template/images/EDM-Mobile.png" />
+                <img src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/EDM-Mobile.png" />
               </span>
               <div class="entry">
                 <div class="__thin">Write to us</div>
@@ -236,7 +236,7 @@
     </mj-section>
     <mj-section background-color="black" padding="30px">
       <mj-column width="35%" padding-right="30px" vertical-align="middle">
-        <mj-image css-class="image-center-on-mobile" align="left" padding="0" src="https://tomdevvn90.github.io/panthera-mail-template/images/national-help.png" />
+        <mj-image css-class="image-center-on-mobile" align="left" padding="0" src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/national-help.png" />
       </mj-column>
       <mj-column width="65%" vertical-align="middle">
         <mj-text color="white">
@@ -249,7 +249,7 @@
         <mj-text>
           <div class="bottom-message">
             <span>
-              <img width="23px" height="auto;" src="https://tomdevvn90.github.io/panthera-mail-template/images/leaf.png" />
+              <img width="23px" height="auto;" src="https://panthera-edm.s3-ap-southeast-2.amazonaws.com/images/leaf.png" />
             </span>
             <span>
               Please consider the environment before printing this email.
